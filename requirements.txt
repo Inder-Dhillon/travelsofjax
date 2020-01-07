@@ -1,0 +1,6 @@
+tweepy
+PIL
+requests
+random
+io
+os
