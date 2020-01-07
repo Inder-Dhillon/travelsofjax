@@ -11,7 +11,7 @@ The program pulls a random landscape from a subreddit on Reddit using Reddit's A
 ##### Modules used:
 tweepy : Twitter's API Wrapper <br>
 pillow : Image manipulation <br>
-requests : Getting json data
+requests : Getting json data<br>
 random : Selecting random image from a subreddit
 
 ##### Example:
