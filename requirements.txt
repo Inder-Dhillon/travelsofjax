@@ -1,6 +1,5 @@
 tweepy
 pillow
 requests
-random
 io
 os
