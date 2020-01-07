@@ -79,4 +79,4 @@ if __name__ == '__main__':
     listener = StdOutListener()
 
     stream = Stream(auth, listener)
-    stream.filter(track=['#jaxson'])
+    stream.filter(track=['#jaxsonreplies'])
