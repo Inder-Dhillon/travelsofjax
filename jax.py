@@ -5,11 +5,11 @@ from PIL import Image
 import requests
 import random
 from io import BytesIO
-
-CONSUMER_KEY = "LCufTOKIRHPPsuRMDJCH6teGs"
-CONSUMER_SECRET = "Z4hlsN4w1w1zBL1ckutNblajYT19utl1eMliPv0k6c8PvkZUba"
-ACCESS_KEY = "1110638074558595073-YxPezECSCdkIkmKc6vbGzECPFVueDe"
-ACCESS_SECRET = "B3tPZ9C24tSf8Eq4x5qyt8UYgMdtEYVNsAglSUArICEMp"
+# I realize this is bad practice but this wont be a problem for this particular use case.
+CONSUMER_KEY = "GweuFL7ULkXsVPSSVbmP0RPOJ"
+CONSUMER_SECRET = "nZfIIASwAvuCeFOhZUs9tlZ62vnNcInEm4xPgSr5nkFNPoIT8O"
+ACCESS_KEY = "1214411896276836352-dGGkTfPzCKxg3SwPiO4HsxJFFtghYd"
+ACCESS_SECRET = "RUGd4PjzYwUs4Axh94H7nAU55T6fyiLGFoYWVZT1qzDrN"
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
