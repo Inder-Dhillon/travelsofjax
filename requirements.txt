@@ -1,5 +1,3 @@
 tweepy
 pillow
 requests
-io
-os
