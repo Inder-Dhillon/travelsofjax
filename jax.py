@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 
 
 def new_landscape():
-    resp = requests.get('https://github.com/Inder-Dhillon/travelsofjax/raw/master/jax.png')
+    resp = requests.get(r'https://github.com/Inder-Dhillon/travelsofjax/raw/master/jax.png')
     jax = Image.open(BytesIO(resp.content))
     url = 'https://www.reddit.com/r/EarthPorn.json?limit=100'
     response = requests.get(url, headers={'User-agent': 'Jaxson 0.1'})
