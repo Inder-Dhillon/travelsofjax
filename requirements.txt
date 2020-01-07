@@ -1,5 +1,5 @@
 tweepy
-PIL
+pillow
 requests
 random
 io
