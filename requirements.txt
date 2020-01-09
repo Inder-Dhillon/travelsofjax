@@ -1,4 +1,3 @@
 tweepy
 pillow
 requests
-praw
